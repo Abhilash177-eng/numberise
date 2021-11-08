@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js">
+
+    </script>
+</head>
+
+<body>
+    <h2 style="margin-left:85%;color: black;">NO.OF.ATTEMPTS</h2>
+    <div class="numbercircle" style="width: 150px;font-size: larger;height: 150px;margin-left:85%;">
+    </div>
+    <p class="numberpostion" id="circle" value="">10</p>
+    <h1 style="margin-left:40%;margin-top:-1%;color:white;">NUMBER GUESSING GAME</h1>
+    <img src="skate.png" style="width:300px;margin-top:-1%;margin-left:15%;height:400px;">
+
+    <div
+        style="width: 50%; background-color:#ffffff; height: 350px;margin-top: -19%; margin-left:32%;border-radius: 3%;" id="one">
+        <div class="innerfont">
+            <br>
+            <p>Guess the number between 1 - 100</p>
+        </div>
+
+        <br>
+
+        <div class="vclass">
+
+        </div>
+        <br>
+        <label style="margin-left:22%;font-size: 19px;">Enter the number</label>
+        <input type="number" id="guess" value="" required
+            style="margin-left:1%; line-height: 25px;width: 30%;background-color:pink;">
+        <br>
+        <br>
+        <br>
+        <button
+            style="background-color:lightgreen;margin-left:33%;border: none;width:27%;height:17%;font-size:medium;color: white;"
+            onclick="generate()"> check</button>
+
+    </div>
+
+    <div id="success"  style="width: 50%; background-color:#ffffff; height: 350px;margin-top: -19%; margin-left:32%;border-radius: 3%;display: none;">
+        <br>
+    <img src="celb.png" style="width: 200px; margin-left:30%;">
+    <h1 style="color:brown;margin-left: 10%;">CONGRATS YOU HAVE WON THE GAME</h1>
+
+    </div>
+
+    <div id="gameover"  style="width: 50%; background-color:#ffffff; height: 350px;margin-top: -19%; margin-left:32%;border-radius: 3%;display:none;">
+        <br>
+        <img src="sadimg.jpeg" style="width: 200px; margin-left:30%;">
+        <h1 style="color: red;margin-left: 10%;">SORRY BETTER LUCK NEXT TIME</h1>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+body{
+/* background-color:#ffb6c1; */
+
+background-color:rosybrown;
+
+}
+
+.numbercircle{
+border-radius: 50%;
+background-color:yellowgreen;
+}
+
+.numberpostion{
+    margin-top:-5%;
+    width: 150px;font-size: larger;height: 150px;margin-left:88.4%;
+    font-size: x-large;
+}
+
+.innerfont{
+    font-size:22px;
+    color:black;
+    margin-left:25%;
+}
+
+.vclass{
+    border-radius: 50%;
+    background-color:pink ;
+    width: 550px;
+    height: 50px;
+    margin-left: 15%;
+}
